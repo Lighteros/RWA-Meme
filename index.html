@@ -432,7 +432,7 @@ footer.foot2{background:#090507;border-top:1px solid rgba(243,198,176,.22)}
   <g id="star8"><path d="M50 0l8 34 26-22-14 32 34 6-34 6 14 32-26-22-8 34-8-34-26 22 14-32-34-6 34-6-14-32 26 22z"/></g>
 </defs></svg>
 
-<div class="topbar"><div class="wrap tb"><span class="dot"></span><span class="lab">CA</span><span class="addr" id="caAddr">0x18c8454891eaf63381e314068ebb6dc13bcff9ed</span><button class="copy" id="caCopy">⧉ COPY</button></div></div>
+<div class="topbar"><div class="wrap tb"><span class="dot"></span><span class="lab">CA</span><span class="addr" id="caAddr">0xcomingsoon</span><button class="copy" id="caCopy">⧉ COPY</button></div></div>
 
 <nav><div class="wrap nav">
   <a class="brand" href="#top"><img class="logomark" src="img/logo.png" alt="$RWA"><span>REAL WORLD A<b>$$</b>ETS</span></a>
@@ -614,10 +614,10 @@ footer.foot2{background:#090507;border-top:1px solid rgba(243,198,176,.22)}
         <div class="flogowrap"><img class="flogo3" src="img/logo.png" alt="$RWA"></div>
         <div><div class="fname">REAL WORLD<br>A$$ETS</div><div class="ftag">$RWA · the thicc-est instrument on-chain</div></div>
       </div>
-      <div class="fca">CA <b>0x18c8…f9ed</b> · LIVE</div>
+      <div class="fca">CA <b>0xcomingsoon</b> · SOON</div>
       <div class="fsocs">
         <a class="pill" href="https://x.com/RealWorldAssRH" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><path d="M18.244 2H21.5l-7.5 8.57L23 22h-6.9l-4.79-6.26L5.8 22H2.54l8.02-9.17L1.5 2h7.05l4.33 5.72L18.244 2Zm-1.21 18h1.79L7.05 3.9H5.13l11.9 16.1Z"/></svg>𝕏 / Twitter</a>
-        <a class="pill" href="https://dexscreener.com/robinhood/0x18c8454891eaf63381e314068ebb6dc13bcff9ed" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><path d="M3 3h2v16h16v2H3V3Zm4.5 9 3-4 3 3 4.5-6 1.6 1.2-6 8-3-3-2.6 3.4L7.5 12Z"/></svg>Chart</a>
+        <a class="pill" href="https://dexscreener.com/robinhood/0xcomingsoon" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><path d="M3 3h2v16h16v2H3V3Zm4.5 9 3-4 3 3 4.5-6 1.6 1.2-6 8-3-3-2.6 3.4L7.5 12Z"/></svg>Chart</a>
       </div>
     </div>
     <div class="fright">
@@ -640,7 +640,7 @@ footer.foot2{background:#090507;border-top:1px solid rgba(243,198,176,.22)}
 document.documentElement.classList.add('js');
 const io=new IntersectionObserver((es)=>{es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}})},{threshold:.12});
 document.querySelectorAll('.reveal,.cut,.dec,.sticker').forEach(el=>io.observe(el));
-const CA='0x18c8454891eaf63381e314068ebb6dc13bcff9ed';
+const CA='0xcomingsoon';
 function copyCA(){const b=document.getElementById('caCopy');if(!b)return;
 if(!CA){b.classList.add('done');b.textContent='SOON';setTimeout(()=>{b.classList.remove('done');b.innerHTML='⧉ COPY';},1400);return;}
 let ok=false;try{if(navigator.clipboard&&window.isSecureContext){navigator.clipboard.writeText(CA);ok=true;}}catch(e){}
